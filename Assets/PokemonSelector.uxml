@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/PokemonSelector_StyleSheet.uss?fileID=7433441132597879392&amp;guid=2a09425a23f7d314fb325570d46d06d4&amp;type=3#PokemonSelector_StyleSheet" />
+    <ui:VisualElement name="PokemonSelector" class="PokemonSelectorSS" style="background-image: none; -unity-slice-scale: 1px; background-color: rgb(0, 160, 255); -unity-background-image-tint-color: rgba(255, 255, 255, 0.52);">
+        <ui:VisualElement name="Pokemon1" class="PokemonSS" style="background-image: url(&apos;project://database/Assets/Images/Bulbasaur.png?fileID=21300000&amp;guid=f0cd43937b5ce504da99fe988a04af40&amp;type=3#Bulbasaur&apos;);" />
+        <ui:VisualElement name="Pokemon2" class="PokemonSS" style="background-image: url(&apos;project://database/Assets/Images/Charizard.png?fileID=21300000&amp;guid=b1e199c8a52564e45a4fc49eb1b428ca&amp;type=3#Charizard&apos;); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+        <ui:VisualElement name="Pokemon3" class="PokemonSS" style="background-image: url(&apos;project://database/Assets/Images/pikachu.png?fileID=21300000&amp;guid=bf59976aff1ef32469164b7814917757&amp;type=3#pikachu&apos;);" />
+        <ui:VisualElement name="Pokemon4" class="PokemonSS" style="background-image: url(&apos;project://database/Assets/Images/Squirtle.png?fileID=21300000&amp;guid=caef78f34cf1b0d478871e6a317589fe&amp;type=3#Squirtle&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

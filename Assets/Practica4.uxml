@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" Nivel_de_defensa="2" editor-extension-mode="False">
+    <ui:Template name="PokemonSelector" src="project://database/Assets/PokemonSelector.uxml?fileID=9197481963319205126&amp;guid=3b22bbbcb6c8a7e48b38a233d0090b85&amp;type=3#PokemonSelector" />
+    <Style src="project://database/Assets/Resources/Practica4_StyleSheet.uss?fileID=7433441132597879392&amp;guid=508d2883c5b68f24a80c22fbcf238975&amp;type=3#Practica4_StyleSheet" />
+    <ui:VisualElement name="Menu" style="flex-grow: 1; flex-direction: row; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border-left-color: rgba(0, 78, 140, 0.89); border-right-color: rgba(0, 78, 140, 0.89); border-top-color: rgba(0, 78, 140, 0.89); border-bottom-color: rgba(0, 78, 140, 0.89); border-top-width: 5px; border-right-width: 5px; border-bottom-width: 5px; border-left-width: 5px; background-image: url(&apos;project://database/Assets/Images/Pokeball.png?fileID=21300000&amp;guid=9393f8cf7039f3f459daed9465a2ecf1&amp;type=3#Pokeball&apos;); -unity-background-scale-mode: scale-to-fit; background-color: rgba(85, 185, 242, 0.68);">
+        <ui:Instance template="PokemonSelector" name="PokemonSelector" style="width: 50%;" />
+        <ui:VisualElement name="StatsMenu" class="StatsMenuSS" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Texto" />
+            <Lab4Stats Defensa="0" Ataque="0" name="Lab4Stats" focusable="false" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

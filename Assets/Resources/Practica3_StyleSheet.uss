@@ -1,0 +1,55 @@
+.item {
+    flex-grow: 1;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    position: relative;
+    left: auto;
+    flex-wrap: wrap;
+    width: 33.3%;
+    height: 33.3%;
+    flex-direction: row;
+    background-color: rgb(255, 131, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+.tabla {
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-left-color: rgb(0, 43, 255);
+    border-right-color: rgb(0, 43, 255);
+    border-top-color: rgb(0, 43, 255);
+    border-bottom-color: rgb(0, 43, 255);
+    border-top-width: 20px;
+    border-right-width: 20px;
+    border-bottom-width: 20px;
+    border-left-width: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    max-width: none;
+    max-height: none;
+}

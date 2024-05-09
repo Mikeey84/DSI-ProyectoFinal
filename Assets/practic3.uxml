@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Practica3_StyleSheet.uss?fileID=7433441132597879392&amp;guid=6cb7842b0b14eb241b0fe8f500797455&amp;type=3#Practica3_StyleSheet" />
+    <ui:VisualElement name="Menu" style="flex-grow: 1; flex-direction: row; background-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="Izquierda" class="tabla">
+            <ui:VisualElement name="Item1" class="item" />
+            <ui:VisualElement name="Item2" class="item" />
+            <ui:VisualElement name="Item3" class="item" />
+            <ui:VisualElement name="Item4" class="item" />
+            <ui:VisualElement name="Item5" class="item" />
+            <ui:VisualElement name="Item6" class="item" />
+            <ui:VisualElement name="Item7" class="item" />
+            <ui:VisualElement name="Item8" class="item" />
+            <ui:VisualElement name="Item9" class="item" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Derecha" class="tabla" style="flex-grow: 1; border-left-color: rgb(0, 255, 2); border-right-color: rgb(0, 255, 2); border-top-color: rgb(0, 255, 2); border-bottom-color: rgb(0, 255, 2);">
+            <ui:VisualElement name="Item1" class="item" />
+            <ui:VisualElement name="Item2" class="item" />
+            <ui:VisualElement name="Item3" class="item" />
+            <ui:VisualElement name="Item4" class="item" />
+            <ui:VisualElement name="Item5" class="item" />
+            <ui:VisualElement name="Item6" class="item" />
+            <ui:VisualElement name="Item7" class="item" />
+            <ui:VisualElement name="Item8" class="item" />
+            <ui:VisualElement name="Item9" class="item" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

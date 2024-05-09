@@ -1,0 +1,132 @@
+.Menu_StyleSheet {
+    flex-grow: 1;
+    flex-direction: row;
+    background-color: rgba(0, 61, 109, 0.72);
+    border-left-color: rgb(0, 122, 255);
+    border-right-color: rgb(0, 122, 255);
+    border-top-color: rgb(0, 122, 255);
+    border-bottom-color: rgb(0, 122, 255);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.Skills_StyleSheet {
+    flex-grow: 1;
+    width: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-left-color: rgb(0, 239, 237);
+    border-right-color: rgb(0, 239, 237);
+    border-top-color: rgb(0, 239, 237);
+    border-bottom-color: rgb(0, 239, 237);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(0, 142, 255, 0.79);
+    -unity-text-outline-color: rgba(0, 0, 0, 0);
+}
+
+.Tipo_StyleSheet {
+    flex-grow: 1;
+    background-color: rgb(43, 124, 174);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    border-left-color: rgb(14, 221, 247);
+    border-right-color: rgb(14, 221, 247);
+    border-top-color: rgb(14, 221, 247);
+    border-bottom-color: rgb(14, 221, 247);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: auto;
+}
+
+.Informacion_StyleSheet {
+    flex-grow: 1;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: rgb(0, 140, 255);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgb(0, 205, 255);
+    border-right-color: rgb(0, 205, 255);
+    border-top-color: rgb(0, 205, 255);
+    border-bottom-color: rgb(0, 205, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon_style {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/Images/pikachu.png?fileID=2800000&guid=bf59976aff1ef32469164b7814917757&type=3#pikachu');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 80px;
+    flex-direction: column-reverse;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-left-color: rgba(0, 0, 0, 0.54);
+    border-right-color: rgba(0, 0, 0, 0.54);
+    border-top-color: rgba(0, 0, 0, 0.54);
+    border-bottom-color: rgba(0, 0, 0, 0.54);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pokemon_style2 {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/Images/pikachu.png?fileID=2800000&guid=bf59976aff1ef32469164b7814917757&type=3#pikachu');
+    -unity-background-scale-mode: scale-to-fit;
+    height: 80px;
+    flex-direction: column-reverse;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: rgb(128, 32, 32);
+    border-right-color: rgb(128, 32, 32);
+    border-top-color: rgb(128, 32, 32);
+    border-bottom-color: rgb(128, 32, 32);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
