@@ -22,7 +22,7 @@ namespace ProyectoFinal_namespace
         {
             VisualElement root = GetComponent<UIDocument>().rootVisualElement;
             pokemon = root.Q<VisualElement>("PokeSprite");
-            nombre = root.Q<Label>("Nomre");
+            nombre = root.Q<Label>("Nombre");
             sombrero = root.Q<VisualElement>("Sombrero");
             mochila = root.Q<VisualElement>("Mochila");
 
