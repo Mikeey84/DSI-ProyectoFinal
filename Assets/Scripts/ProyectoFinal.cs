@@ -2,6 +2,7 @@ using Lab6_namespace;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 namespace ProyectoFinal_namespace
@@ -20,6 +21,8 @@ namespace ProyectoFinal_namespace
         VisualElement avatar2;
         VisualElement avatar3;
 
+        VisualElement botonInicio;
+
         TextField input_nombre;
         TextField input_apellido;
 
@@ -27,7 +30,13 @@ namespace ProyectoFinal_namespace
         private void OnEnable()
         {
             VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-
+            botonInicio = root.Q("Button");
+            botonInicio.RegisterCallback<ClickEvent>(changeScene);
+        }
+        public void changeScene(ClickEvent c)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
+    
 }

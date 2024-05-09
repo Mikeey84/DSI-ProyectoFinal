@@ -1,0 +1,46 @@
+.playbutton {
+    background-image: resource('jungle-play-or-start-button-with-stone-and-leaves-decorations-in-funny-cartoon-style-isolated-on-white-background-game-menu-interface-design-ui-asset-illu-removebg-preview');
+    height: 200px;
+    width: 200px;
+    background-color: rgba(188, 188, 188, 0);
+    left: 90px;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+}
+
+.playbutton:hover {
+    background-image: resource('jungle-play-or-start-button-with-stone-and-leaves-decorations-in-funny-cartoon-style-isolated-on-white-background-game-menu-interface-design-ui-asset-illu-removebg-preview');
+    height: 200px;
+    width: 200px;
+    background-color: rgba(188, 188, 188, 0);
+    left: 90px;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    scale: 1.2 1.2;
+}
