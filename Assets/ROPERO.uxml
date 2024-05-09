@@ -1,8 +1,36 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="Pokemon" src="project://database/Assets/Resources/Pokemon.uxml?fileID=9197481963319205126&amp;guid=fea38c82da970c048b41198c49f5d0a6&amp;type=3#Pokemon" />
     <Style src="project://database/Assets/Resources/ProyectoFinal_SS.uss?fileID=7433441132597879392&amp;guid=d16c916b0a9507f45a03b61dcd3a557f&amp;type=3#ProyectoFinal_SS" />
-    <ui:VisualElement name="MenuRopero" style="flex-grow: 1; background-image: resource(&apos;Captura de pantalla 2024-05-09 151032&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: column-reverse;">
-        <ui:Instance template="Pokemon" name="Pokemon" style="width: 50%; height: 50%;" />
-        <ui:VisualElement style="flex-grow: 1;" />
+    <ui:VisualElement name="MenuRopero" style="flex-grow: 1; background-image: resource(&apos;Captura de pantalla 2024-05-09 151032&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: row;">
+        <ui:VisualElement name="Izquierda" style="flex-grow: 1; align-items: center;">
+            <ui:Label tabindex="-1" text="Nombre" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NombreRopero" style="translate: 0 200%; background-color: rgba(1, 75, 155, 0.86); width: 50%; height: 10%; -unity-text-align: upper-center; -unity-font-style: bold; font-size: 50px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; color: rgb(255, 255, 255);" />
+            <ui:Instance template="Pokemon" name="Pokemon" style="width: 90%; height: 50%; translate: 10% 70%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Selectors" style="flex-grow: 1;">
+            <ui:VisualElement name="PokemonSelector" class="selctor_SS">
+                <ui:VisualElement name="Pokemon1" class="Icon_SS" />
+                <ui:VisualElement name="Pokemon2" class="Icon_SS" style="background-image: resource(&apos;Squirtle&apos;);" />
+                <ui:VisualElement name="Pokemon3" class="Icon_SS" style="background-image: resource(&apos;Bulbasaur&apos;);" />
+                <ui:VisualElement name="Pokemon4" class="Icon_SS" style="background-image: resource(&apos;Diglett&apos;);" />
+                <ui:VisualElement name="Pokemon5" class="Icon_SS" style="background-image: resource(&apos;Charmander&apos;);" />
+                <ui:VisualElement name="Pokemon6" class="Icon_SS" style="background-image: resource(&apos;Cyndaquil&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="SombreroSelector" class="selctor_SS" style="flex-grow: 1;">
+                <ui:VisualElement name="Sombrero1" class="Icon_SS" style="background-image: resource(&apos;Sombrero1&apos;);" />
+                <ui:VisualElement name="Sombrero2" class="Icon_SS" style="background-image: resource(&apos;Sombrero2&apos;);" />
+                <ui:VisualElement name="Sombrero3" class="Icon_SS" style="background-image: resource(&apos;Sombrero3&apos;);" />
+                <ui:VisualElement name="Sombrero4" class="Icon_SS" style="background-image: resource(&apos;Sombrero4&apos;);" />
+                <ui:VisualElement name="Sombrero5" class="Icon_SS" style="background-image: resource(&apos;Sombrero5&apos;);" />
+                <ui:VisualElement name="Sombrero6" class="Icon_SS" style="background-image: resource(&apos;Sombrero6&apos;);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MochilaSelector" class="selctor_SS" style="flex-grow: 1;">
+                <ui:VisualElement name="Mochila1" class="Icon_SS" style="background-image: resource(&apos;Mochila1&apos;);" />
+                <ui:VisualElement name="Mochila2" class="Icon_SS" style="background-image: resource(&apos;Mochila2&apos;);" />
+                <ui:VisualElement name="Mochila3" class="Icon_SS" style="background-image: resource(&apos;Mochila3&apos;);" />
+                <ui:VisualElement name="Mochila4" class="Icon_SS" style="background-image: resource(&apos;Mochila4&apos;);" />
+                <ui:VisualElement name="Mochila5" class="Icon_SS" style="background-image: resource(&apos;Mochila5&apos;);" />
+                <ui:VisualElement name="Mochila6" class="Icon_SS" style="background-image: resource(&apos;Mochila6&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

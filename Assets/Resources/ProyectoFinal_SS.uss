@@ -44,3 +44,117 @@
     border-bottom-color: rgba(149, 149, 149, 0);
     scale: 1.2 1.2;
 }
+
+.selctor_SS {
+    flex-grow: 1;
+    background-color: rgba(0, 110, 166, 0.67);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgb(0, 89, 138);
+    border-right-color: rgb(0, 89, 138);
+    border-top-color: rgb(0, 89, 138);
+    border-bottom-color: rgb(0, 89, 138);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Icon_SS {
+    flex-grow: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    background-color: rgba(4, 42, 118, 0.65);
+    width: 27%;
+    height: 44%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image: resource('pikachu');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.Icon_SS:hover {
+    flex-grow: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    width: 27%;
+    height: 44%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image: resource('pikachu');
+    -unity-background-scale-mode: scale-and-crop;
+    scale: 1.1 1.1;
+    background-color: rgba(0, 115, 182, 0.9);
+}
+
+.selctor_SS {
+    flex-grow: 1;
+    background-color: rgba(0, 110, 166, 0.67);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgb(0, 89, 138);
+    border-right-color: rgb(0, 89, 138);
+    border-top-color: rgb(0, 89, 138);
+    border-bottom-color: rgb(0, 89, 138);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    translate: 85% 0;
+}
+
+.selctor_SS:hover {
+    flex-grow: 1;
+    background-color: rgba(0, 110, 166, 0.67);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left-color: rgb(0, 89, 138);
+    border-right-color: rgb(0, 89, 138);
+    border-top-color: rgb(0, 89, 138);
+    border-bottom-color: rgb(0, 89, 138);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    translate: 0 0;
+}

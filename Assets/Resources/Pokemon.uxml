@@ -2,10 +2,10 @@
     <Style src="project://database/Assets/Resources/ProyectoFinal_SS.uss?fileID=7433441132597879392&amp;guid=d16c916b0a9507f45a03b61dcd3a557f&amp;type=3#ProyectoFinal_SS" />
     <ui:VisualElement name="ImagenPoke" style="flex-grow: 1;">
         <ui:VisualElement name="Top" style="flex-grow: 1; flex-direction: row; align-self: center; height: 10%;">
-            <ui:Label text="Nombre" name="Nombre" style="font-size: 50%; -unity-font-style: bold;" />
+            <ui:Label name="Nombre" style="font-size: 50%; -unity-font-style: bold;" />
         </ui:VisualElement>
         <ui:VisualElement name="PokeSprite" style="flex-grow: 1; background-image: resource(&apos;pikachu&apos;); -unity-background-scale-mode: scale-to-fit; height: 90%;">
-            <ui:VisualElement name="Sombrero" style="flex-grow: 1; background-image: resource(&apos;gorro paja&apos;); -unity-background-scale-mode: scale-to-fit; width: 30%; height: auto; align-self: center; translate: -10% 0;" />
+            <ui:VisualElement name="Sombrero" style="flex-grow: 1; background-image: resource(&apos;Sombrero4&apos;); -unity-background-scale-mode: scale-to-fit; width: 30%; height: auto; align-self: center; translate: -10% 0;" />
             <ui:VisualElement name="Mochila" style="flex-grow: 1; width: 30%; align-self: center; background-image: resource(&apos;Mochila2&apos;); translate: -80% 0; -unity-background-scale-mode: scale-to-fit;" />
         </ui:VisualElement>
     </ui:VisualElement>
