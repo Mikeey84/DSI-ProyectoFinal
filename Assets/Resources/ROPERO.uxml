@@ -1,7 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Template name="Pokemon" src="project://database/Assets/Resources/Pokemon.uxml?fileID=9197481963319205126&amp;guid=fea38c82da970c048b41198c49f5d0a6&amp;type=3#Pokemon" />
-    <Style src="project://database/Assets/Resources/ProyectoFinal_SS.uss?fileID=7433441132597879392&amp;guid=d16c916b0a9507f45a03b61dcd3a557f&amp;type=3#ProyectoFinal_SS" />
-    <ui:VisualElement name="Menuropero" style="flex-grow: 1; background-image: resource(&apos;Captura de pantalla 2024-05-09 151032&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: column-reverse;">
-        <ui:Instance template="Pokemon" name="Pokemon" style="width: 50%; height: 50%;" />
-    </ui:VisualElement>
-</ui:UXML>
