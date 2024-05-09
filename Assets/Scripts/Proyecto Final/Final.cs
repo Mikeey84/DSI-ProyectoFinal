@@ -12,6 +12,7 @@ namespace ProyectoFinal_namespace
 {
     public class Final : MonoBehaviour
     {
+        PokeIndividuo pokeIndividuo;
         VisualElement pokemon;
         Label nombre;
         VisualElement sombrero;
@@ -20,12 +21,23 @@ namespace ProyectoFinal_namespace
         private void OnEnable()
         {
             VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-            pokemon = root.Q<VisualElement>("Pokemon");
+            pokemon = root.Q<VisualElement>("PokeSprite");
             nombre = root.Q<Label>("Nomre");
             sombrero = root.Q<VisualElement>("Sombrero");
             mochila = root.Q<VisualElement>("Mochila");
 
             cargar();
+
+            Sprite imagen = Resources.Load<Sprite>(pokeIndividuo.pokemon);
+            pokemon.style.backgroundImage = imagen.texture;
+
+            Sprite somb = Resources.Load<Sprite>(pokeIndividuo.sombrero);
+            sombrero.style.backgroundImage = somb.texture;
+
+            Sprite mochi = Resources.Load<Sprite>(pokeIndividuo.mochila);
+            mochila.style.backgroundImage = mochi.texture;
+
+            nombre.text = pokeIndividuo.nombre;
         }
 
 
@@ -44,9 +56,10 @@ namespace ProyectoFinal_namespace
                     //dividir la línea en partes utilizando la coma como separador
                     string[] parts = line.Split(',');
 
-                    PokeIndividuo pokemon = new PokeIndividuo(parts[0], parts[1], int.Parse(parts[2]),
+                   pokeIndividuo = new PokeIndividuo(parts[0], parts[1], int.Parse(parts[2]),
                         int.Parse(parts[3]), parts[4], parts[5]);
                 }
+
 
                 Debug.Log("Datos cargados desde datos.txt");
             }

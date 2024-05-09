@@ -1,2 +1,1 @@
-Daniel,Moreno,Bulbasaur
-cdcdc,ssss,Squirtle
+Cubelo,Charizard,1,1,gorra,mochila1
