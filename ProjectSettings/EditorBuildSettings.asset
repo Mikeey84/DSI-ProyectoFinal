@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Escena1.unity
+    path: Assets/Scenes/Inicio.unity
     guid: 11ad3b5a8f519204c93b7e2045759aab
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/SeleccionPokemon.unity
+    guid: 334cb487b6846944c95b3ab84fc354cb
+  - enabled: 1
+    path: Assets/Scenes/Ropero.unity
+    guid: e68a85178dc38f74ca2b163c635f69ff
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   m_configObjects: {}

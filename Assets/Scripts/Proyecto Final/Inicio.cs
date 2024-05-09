@@ -7,13 +7,13 @@ using UnityEngine.UIElements;
 
 namespace ProyectoFinal_namespace
 {
-    public class ProyectoFinal : MonoBehaviour
+    public class Inicio : MonoBehaviour
     {
         VisualElement botonInicio;
         private void OnEnable()
         {
             VisualElement root = GetComponent<UIDocument>().rootVisualElement;
-            botonInicio = root.Q("Button");
+            botonInicio = root.Q("BotonInicio");
             botonInicio.RegisterCallback<ClickEvent>(changeScene);
         }
         public void changeScene(ClickEvent c)
