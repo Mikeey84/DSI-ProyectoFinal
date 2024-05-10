@@ -40,8 +40,6 @@ namespace ProyectoFinal_namespace
             nombre.text = pokeIndividuo.nombre;
         }
 
-
-
         void cargar()
         {
             if (File.Exists("datos.txt"))
