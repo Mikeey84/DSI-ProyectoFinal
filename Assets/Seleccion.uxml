@@ -1,6 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PokeTarjeta" src="project://database/Assets/Resources/PokeTarjeta.uxml?fileID=9197481963319205126&amp;guid=3eae84c595f4c2b4f809275b21c32caf&amp;type=3#PokeTarjeta" />
     <Style src="project://database/Assets/Resources/ProyectoFinal_SS.uss?fileID=7433441132597879392&amp;guid=d16c916b0a9507f45a03b61dcd3a557f&amp;type=3#ProyectoFinal_SS" />
     <ui:VisualElement name="Menuropero" style="flex-grow: 1; background-image: resource(&apos;Captura de pantalla 2024-05-09 150314&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: column-reverse;">
-        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonSeleccion" class="playbutton" style="width: 100px; height: 100px; top: 0; left: 530px; bottom: 0;" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonSeleccion" class="playbutton" style="width: 400px; height: 400px; left: 75%; top: 0;" />
+        <ui:VisualElement name="Ranuras" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-around;">
+            <ui:Instance template="PokeTarjeta" name="PokeTarjeta" style="height: 593px; flex-direction: column;" />
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

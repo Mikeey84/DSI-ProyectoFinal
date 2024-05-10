@@ -1,48 +1,16 @@
 .playbutton {
     background-image: resource('jungle-play-or-start-button-with-stone-and-leaves-decorations-in-funny-cartoon-style-isolated-on-white-background-game-menu-interface-design-ui-asset-illu-removebg-preview');
-    height: 200px;
-    width: 200px;
     background-color: rgba(188, 188, 188, 0);
-    left: 90px;
-    top: 150px;
-    right: 0;
-    bottom: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    border-left-color: rgba(149, 149, 149, 0);
-    border-right-color: rgba(149, 149, 149, 0);
-    border-top-color: rgba(149, 149, 149, 0);
-    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    width: 400px;
+    height: 400px;
 }
 
 .playbutton:hover {
     background-image: resource('jungle-play-or-start-button-with-stone-and-leaves-decorations-in-funny-cartoon-style-isolated-on-white-background-game-menu-interface-design-ui-asset-illu-removebg-preview');
-    height: 200px;
-    width: 200px;
     background-color: rgba(188, 188, 188, 0);
-    left: 90px;
-    top: 150px;
-    right: 0;
-    bottom: 0;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    border-left-color: rgba(149, 149, 149, 0);
-    border-right-color: rgba(149, 149, 149, 0);
-    border-top-color: rgba(149, 149, 149, 0);
-    border-bottom-color: rgba(149, 149, 149, 0);
-    scale: 1.2 1.2;
+    scale: 1.1 1.1;
+    -unity-background-scale-mode: scale-to-fit;
 }
 
 .selctor_SS {
@@ -77,14 +45,14 @@
     background-color: rgba(4, 42, 118, 0.65);
     width: 27%;
     height: 44%;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     background-image: resource('pikachu');
     -unity-background-scale-mode: scale-to-fit;
 }
@@ -97,14 +65,14 @@
     border-bottom-color: rgb(0, 0, 0);
     width: 27%;
     height: 44%;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     background-image: resource('pikachu');
     -unity-background-scale-mode: scale-and-crop;
     scale: 1.1 1.1;

@@ -1,7 +1,8 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Resources/ProyectoFinal_SS.uss?fileID=7433441132597879392&amp;guid=d16c916b0a9507f45a03b61dcd3a557f&amp;type=3#ProyectoFinal_SS" />
     <ui:VisualElement name="MenuBG" style="flex-grow: 1; background-image: resource(&apos;grookey_1&apos;);">
-        <ui:Label tabindex="-1" text="POKEMON STYLE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TITULO" enable-rich-text="false" style="justify-content: flex-start; align-self: auto; align-items: auto; left: 75px; top: 100px; right: 0; bottom: 0; -unity-font-style: bold; font-size: 25px;" />
-        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="BotonInicio" class="playbutton" />
+        <ui:Label tabindex="-1" text="POKEMON STYLE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TITULO" enable-rich-text="false" style="justify-content: flex-start; align-self: auto; align-items: auto; left: 75px; top: 100px; right: 0; bottom: 0; -unity-font-style: bold-and-italic; font-size: 120px; color: rgb(0, 49, 66);" />
+        <ui:Label tabindex="-1" text="POKEMON STYLE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TITULO" enable-rich-text="false" style="justify-content: flex-start; align-self: auto; align-items: auto; left: 75px; top: -72px; right: 0; bottom: 0; -unity-font-style: bold-and-italic; font-size: 120px; color: rgb(0, 168, 190);" />
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="BotonInicio" class="playbutton" style="left: 15%; top: 0;" />
     </ui:VisualElement>
 </ui:UXML>
