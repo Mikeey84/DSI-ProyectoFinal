@@ -4,7 +4,10 @@
     <ui:VisualElement name="Menuropero" style="flex-grow: 1; background-image: resource(&apos;Captura de pantalla 2024-05-09 150314&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: column-reverse;">
         <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonSeleccion" class="playbutton" style="width: 400px; height: 400px; left: 75%; top: 0;" />
         <ui:VisualElement name="Ranuras" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-around;">
-            <ui:Instance template="PokeTarjeta" name="PokeTarjeta" style="height: 593px; flex-direction: column;" />
+            <ui:Instance template="PokeTarjeta" name="PokeTarjeta1" style="height: 593px; flex-direction: column;" />
+            <ui:Instance template="PokeTarjeta" name="PokeTarjeta2" style="height: 593px; flex-direction: column;" />
+            <ui:Instance template="PokeTarjeta" name="PokeTarjeta3" style="height: 593px; flex-direction: column;" />
+            <ui:Instance template="PokeTarjeta" name="PokeTarjeta4" style="height: 593px; flex-direction: column;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

@@ -58,7 +58,6 @@ namespace ProyectoFinal_namespace
                         int.Parse(parts[3]), parts[4], parts[5]);
                 }
 
-
                 Debug.Log("Datos cargados desde datos.txt");
             }
             else
@@ -67,6 +66,5 @@ namespace ProyectoFinal_namespace
             }
         }
     }
-
 }
 

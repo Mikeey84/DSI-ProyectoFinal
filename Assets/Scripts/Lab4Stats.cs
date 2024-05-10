@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-
 public class Lab4Stats : VisualElement
 {
     VisualElement NivelEscudos = new VisualElement();

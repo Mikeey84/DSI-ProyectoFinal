@@ -1,1 +1,1 @@
-Cubelo,Charizard,1,1,gorra,mochila1
+Cubelo,Charizard,3,2,sombrero1,mochila1
