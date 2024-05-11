@@ -7,12 +7,13 @@ using UnityEngine.UIElements;
 using System.IO;
 using Lab6_namespace;
 using ProyectoFinal_namespace;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 
 namespace ProyectoFinal_namespace
 {
     public class Final : MonoBehaviour
     {
-        PokeIndividuo pokeIndividuo;
+        PokeIndividuo pokeIndividuo = new PokeIndividuo("", "", 0, 0, "", "");
         VisualElement pokemon;
         Label nombre;
         VisualElement sombrero;
@@ -42,20 +43,33 @@ namespace ProyectoFinal_namespace
 
         void cargar()
         {
+            int ranura = 1;
+            if (File.Exists("ranura.txt"))
+            {
+                string line = File.ReadLines("ranura.txt").Last();
+                ranura = int.Parse(line);
+            }
+            VisualElement root = GetComponent<UIDocument>().rootVisualElement;
             if (File.Exists("datos.txt"))
             {
-                //individuoList.Clear();
-
                 // Leer todas las líneas del archivo
                 string[] lines = File.ReadAllLines("datos.txt");
-
+                int i = 1;
                 foreach (string line in lines)
                 {
-                    //dividir la línea en partes utilizando la coma como separador
-                    string[] parts = line.Split(',');
+                    if (i == ranura)
+                    {
+                        string[] parts = line.Split(',');
 
-                   pokeIndividuo = new PokeIndividuo(parts[0], parts[1], int.Parse(parts[2]),
-                        int.Parse(parts[3]), parts[4], parts[5]);
+                        pokeIndividuo = new PokeIndividuo(parts[0], parts[1], int.Parse(parts[2]),
+                             int.Parse(parts[3]), parts[4], parts[5]);
+
+                        nombre.text = pokeIndividuo.nombre;
+                        pokemon.style.backgroundImage = Resources.Load<Sprite>(pokeIndividuo.pokemon).texture;
+                        sombrero.style.backgroundImage = Resources.Load<Sprite>(pokeIndividuo.sombrero).texture;
+                        mochila.style.backgroundImage = Resources.Load<Sprite>(pokeIndividuo.mochila).texture;
+                    }
+                    i++;
                 }
 
                 Debug.Log("Datos cargados desde datos.txt");

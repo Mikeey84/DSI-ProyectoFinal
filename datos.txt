@@ -1,1 +1,6 @@
-Cubelo,Charizard,3,2,sombrero1,mochila1
+Cubelo,Squirtle,3,3,Sombrero1,Mochila5
+,Cyndaquil,3,1,Sombrero5,Mochila2
+
+
+
+

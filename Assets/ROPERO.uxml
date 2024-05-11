@@ -2,9 +2,13 @@
     <ui:Template name="Pokemon" src="project://database/Assets/Resources/Pokemon.uxml?fileID=9197481963319205126&amp;guid=fea38c82da970c048b41198c49f5d0a6&amp;type=3#Pokemon" />
     <Style src="project://database/Assets/Resources/ProyectoFinal_SS.uss?fileID=7433441132597879392&amp;guid=d16c916b0a9507f45a03b61dcd3a557f&amp;type=3#ProyectoFinal_SS" />
     <ui:VisualElement name="MenuRopero" style="flex-grow: 1; background-image: resource(&apos;Captura de pantalla 2024-05-09 151032&apos;); -unity-background-scale-mode: stretch-to-fill; flex-direction: row;">
-        <ui:VisualElement name="Izquierda" style="flex-grow: 1; align-items: center;">
-            <ui:Label tabindex="-1" text="Nombre" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NombreRopero" style="translate: 0 200%; background-color: rgba(1, 75, 155, 0.86); width: 50%; height: 10%; -unity-text-align: upper-center; -unity-font-style: bold; font-size: 50px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; color: rgb(255, 255, 255);" />
-            <ui:Instance template="Pokemon" name="Pokemon" style="width: 90%; height: 50%; translate: 10% 70%;" />
+        <ui:VisualElement name="Izquierda" style="flex-grow: 1; align-items: flex-start; width: 380px;">
+            <ui:TextField picking-mode="Ignore" label="Nombre: " name="NombreRopero" style="font-size: 40px; -unity-text-align: middle-center; -unity-font-style: bold; color: rgb(0, 0, 0); background-color: rgba(0, 91, 163, 0.92); border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; width: 600px; height: 7%;" />
+            <Lab4Stats name="Lab4Stats" />
+            <ui:VisualElement name="bottom" style="flex-grow: 1; flex-direction: row; width: 100%; align-self: flex-end; align-items: auto;">
+                <ui:Instance template="Pokemon" name="Pokemon" style="width: 100%; height: 502px; translate: 20% -20px;" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="BotonSiguente" class="playbutton" style="width: 200px; height: 300px;" />
+            </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="Selectors" style="flex-grow: 1;">
             <ui:VisualElement name="PokemonSelector" class="selctor_SS">

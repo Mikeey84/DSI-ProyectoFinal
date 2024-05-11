@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using ProyectoFinal_namespace;
+
 public class Lab4Stats : VisualElement
 {
     VisualElement NivelEscudos = new VisualElement();
@@ -10,7 +12,7 @@ public class Lab4Stats : VisualElement
     VisualElement NivelEspadas = new VisualElement();
     VisualElement[] EspadasArr = new VisualElement[5];
 
-    int NivelDeEscudos;
+    public int NivelDeEscudos;
     public int Escudos
     {
         get => NivelDeEscudos;
@@ -19,7 +21,7 @@ public class Lab4Stats : VisualElement
             ponerNivel(EscudosArr, NivelDeEscudos);}
     }
 
-    int NivelDeEspadas;
+    public int NivelDeEspadas;
     public int Espadas
     {
         get => NivelDeEspadas;
