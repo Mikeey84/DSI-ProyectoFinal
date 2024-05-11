@@ -13,7 +13,7 @@ namespace ProyectoFinal_namespace
 {
     public class Final : MonoBehaviour
     {
-        PokeIndividuo pokeIndividuo = new PokeIndividuo("", "", 0, 0, "", "");
+        PokeIndividuo pokeIndividuo = new PokeIndividuo("", "pikachu", 0, 0, "Sombrero4", "Mochila1");
         VisualElement pokemon;
         Label nombre;
         VisualElement sombrero;
